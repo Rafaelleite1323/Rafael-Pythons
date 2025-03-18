@@ -1,13 +1,13 @@
 #Códigos feitos por mim e modificados pelo 
 #Github Copilot para funcionarem em conjunto
-#%Votos Válidos
+#Renda Mensal
 def calcular_salario_mensal():
     Rm = float(input("Renda Mensal (Salário Mensal): "))
     H = float(input("Horas de trabalho semanal: "))
     emH = (Rm * 12) / (H * 52)
     print("Salário por hora:", emH)
 
-#%Abstenção
+#Renda Anual
 def calcular_salario_anual():
     Ra = float(input( "Renda Anual (Salario Anual): " ))
     H = float(input( "Horas trabalho semanal: " ))
